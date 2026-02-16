@@ -84,11 +84,15 @@ getVideogameGenres list =
 -- El test espera que estos campos existan y sean Strings
 
 
+myLaptop :
+    { ram : String
+    , storage : String
+    , brand : String
+    }
 myLaptop =
     { ram = "16GB"
-    , model = "XPS 13"
-    , brand = "Dell"
-    , screenSize = "13.4"
+    , storage = "1TB"
+    , brand = "Lenovo"
     }
 
 
